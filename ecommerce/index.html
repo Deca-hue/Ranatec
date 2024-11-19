@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANATEC.Ke website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <header class="header">
+            <div class="container">
+                <h1 class="logo">RANATEC.KE</h1>
+                <nav class="nav">
+                    <a href="#services">Services</a>
+                    <a href="#products">Products</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#cart" class="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</a>
+                </nav>
+                <!-- Hamburger Menu Icon -->
+                <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+            </div>
+        </header>
+        
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Protect Your Ride</h1>
+            <p>State-of-the-Art Security Devices and 24/7 Monitoring for Total Peace of Mind.</p>
+            <a href="#services" class="btn">Learn More</a>
+            <a href="#products" class="btn secondary">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <img src="dvs90.jpeg" alt="Car Alarms">
+                    <h3>Car Alarms</h3>
+                    <p>Top-notch car alarm systems to deter theft and protect your vehicle.</p>
+                </div>
+                <div class="service">
+                    <img src="dashcam2.jpeg" alt="Dashcam Installation">
+                    <h3>Dashcam Installation</h3>
+                    <p>Record every journey with high-quality dashcams professionally installed.</p>
+                </div>
+                <div class="service">
+                    <img src="amber.jpeg" alt="GPS Tracking">
+                    <h3>GPS Tracking</h3>
+                    <p>Real-time location tracking and alerts to keep your vehicle secure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="dashcam 1.jpeg" alt="Dashcam Pro">
+                    <h3>Dashcam Pro</h3>
+                    <p>$99.99</p>
+                    <button class="add-to-cart" data-id="1">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="gpst.jpeg" alt="GPS Tracker Plus">
+                    <h3>GPS Tracker Plus</h3>
+                    <p>$149.99</p>
+                    <button class="add-to-cart" data-id="2">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="viper.jpeg" alt="Advanced Alarm System">
+                    <h3>Advanced Alarm System</h3>
+                    <p>$199.99</p>
+                    <button class="add-to-cart" data-id="3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial">
+                    <p>"The GPS tracker saved my car from being stolen! Highly recommend SecureDrive."</p>
+                    <h3>- Mutuse D.</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"Excellent service and professional installation. My dashcam works perfectly."</p>
+                    <h3>- Sarah L.</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"SecureDrive's alarm system is top-notch. I feel much safer now."</p>
+                    <h3>- Michael K.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ranatecke Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
